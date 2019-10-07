@@ -1,0 +1,103 @@
+.menu {
+    height: 100px;
+  }
+  
+  .ct-top {
+      background: url('./images/fundo-top.png');
+      background-size: cover;
+      height: 561px;
+  }
+
+  .teste {
+      margin: 0;
+      padding: 0;
+  }
+
+  .logo {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+  }
+
+  .opcsMenu {
+      height: 100px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+  }
+  .btnMenu {
+      width: 160px;
+      height: 38px;
+      background-color: #036A83;
+      border-radius: 20px;
+      text-align: center;
+      line-height: 38px;
+      font-weight: bold;
+      color: #ffffff;
+      margin-left: 20px;
+      cursor: pointer;
+      transition-duration: 0.5s;
+  }
+
+  .btnMenu:hover {
+    width: 160px;
+    height: 38px;
+    background-color: rgb(52, 155, 180);
+    border-radius: 20px;
+    text-align: center;
+    line-height: 38px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.textoTop {
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+.ctTexto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ctImageTop {
+    display: flex;
+    justify-content: center;
+}
+
+.arteTop {
+    width: 65%;
+}
+
+.separador {
+    height: 120px;
+    background: url('./images//separador-1.png');
+    background-size: cover;
+}
+.separador2 {
+    height: 120px;
+    background: url('./images//separador-2.png');
+    background-size: cover;
+}
+
+.ctImageTech {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.ctTxtTech {
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    color: #012831;
+}
+
+.ctAbout {
+    height: 558px;
+    background: url('./images/fundoAbout.png');
+    background-color: #013643;
+}
